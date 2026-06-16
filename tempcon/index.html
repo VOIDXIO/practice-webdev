@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="sc.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="t">Temperature Converter</h1>
+
+        <label for="tempScale">Select Temperature Scale:</label>
+        <select id="tempScale">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+
+        <label for="toScale">Select scale to convert:</label>
+        <select id="toScale">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+
+        <input id="inputbox" type="number" placeholder="Enter temperature">
+        <button id="convertBtn">Convert</button>
+
+        <h1 id="result">0</h1>
+    </div>
+</body>
+</html>

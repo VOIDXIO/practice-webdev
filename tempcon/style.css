@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+#inputbox,
+#tempScale,
+#toScale {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid teal;
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+#convertBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
